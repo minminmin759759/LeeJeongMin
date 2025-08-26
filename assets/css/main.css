@@ -10,17 +10,7 @@
   font-style: normal;
 }
 
-.minfont {
-  font-family: "WindSong", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
 
-.minfont {
-  font-family: "WindSong", cursive;
-  font-weight: 500;
-  font-style: normal;
-}
 
 
 :root {
@@ -34,8 +24,8 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #3b434a; /* Color for headings, subheadings and title throughout the website */
-  --accent-color-min: #8ced9c;
-  --accent-color: #ffbb27; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color-min: #1e90ff;
+  --accent-color: #1e90ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #000000; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -750,15 +740,23 @@ section,
   z-index: 1;
 }
 
+
+.hero-img {
+ width: 50px;
+ display: block;
+ 
+
+}
+
 .hero .container {
   position: relative;
   z-index: 3;
 }
 
-.hero h2 {
+.hero h1 {
   margin: 0;
-  font-size: 50px;
-  font-weight: 400;
+  font-size: 100px;
+  font-weight: 800;
   line-height: 56px;
 }
 
